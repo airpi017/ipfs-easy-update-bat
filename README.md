@@ -24,13 +24,13 @@ Two `.bat` files are needed, 1. to emulate `sudo` or the Adminstrator and 2. to 
 
 The `ipfs-easy-install.bat` file uses the following environment variables to install the IPFS for you.
 
-`:: Create install paths etc.
+`:: Create install paths etc.`
 
-set updateVersion=v1.5.2
+`set updateVersion=v1.5.2`
 
-set IPFS_BIN=C:\ipfs\bin
+`set IPFS_BIN=C:\ipfs\bin`
 
-set IPFS_INSTALL=C:\ipfs\install`
+`set IPFS_INSTALL=C:\ipfs\install`
 
 %updateVersion% is used to set the %LATEST% variable when a later version is detected.
 
