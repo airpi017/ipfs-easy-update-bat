@@ -72,11 +72,11 @@ You will see 2 terminal windows appear after a restart.
 
 One is starting the IPFS for you and stays open. This can be closed using `^C` twice. Ignore any error messages.
 
-The second sets the bandwidth shaping you've chosen and closes once the IPFS has started.
+The second sets the bandwidth shaping you've chosen and closes once the IPFS has started - `be vigilant`.
 
 ## Behaviour after Hibernate
 You will only see the original IPFS terminal window.
 
 This can be closed using `^C` twice. You can ignore any error messages on your return.
 
-The bandwidth shaping settings you've chosen have been re-applied.
+The bandwidth shaping settings you've chosen have been re-applied - `be vigilant`.
