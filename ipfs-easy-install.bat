@@ -121,6 +121,7 @@ rem  echo FOR /f tokens=1 %%L IN (ipfs-link.speed) DO (Set ^"UserMthlyKB=%%L^") 
   echo start "The IPFS - %UserMthlyKB%KB" ipfs daemon --init >> %IPFS_BIN%\ipfs-start.bat
   echo powershell New-NetQosPolicy -Name "ipfs" -AppPathNameMatchCondition "ipfs.exe" -ThrottleRateActionBitsPerSecond %UserMthlyKB%KB -PolicyStore ActiveStore >> %IPFS_BIN%\ipfs-start.bat
   echo sudo ipfs-start.bat > %IPFS_BIN%\sudo-ipfs.bat
+  copy /y %cd%\sudo.bat %IPFS_BIN%\sudo.bat
   mklink "C:\Users\%USERNAME%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\sudo-ipfs.bat" "%IPFS_BIN%\sudo-ipfs.bat"
 )
 echo.
