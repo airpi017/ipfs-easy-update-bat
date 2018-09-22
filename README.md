@@ -58,7 +58,7 @@ New level is applied immediately.
  4. Runs `ipfs-update` and installs the latest version
  5. Shapes bandwidth usage using `XXX-NetQosPolicy` - `be vigilant`
  6. Sets up `sudo-ipfs.bat` and Startup link
- 7. Initialises ipfs
+ 7. Initialises ipfs and includes `C:\ipfs\bin` in %PATH%
  8. Show ipfs readme and then the quick-start pages
  9. Launches WebUI using start command
 
